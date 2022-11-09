@@ -15,8 +15,8 @@ provider "azurerm" {
 ## Create Resource Group
 #######################################################################
 
-resource "azurerm_resource_group" "privatelink-dns-microhack-rg" {
-  name     = "privatelink-dns-microhack-rg"
+resource "azurerm_resource_group" "koenig-sql-rg" {
+  name     = "koenig-sql-rg"
   location = var.location
 
   tags = {
